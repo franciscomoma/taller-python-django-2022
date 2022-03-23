@@ -26,7 +26,7 @@ Otra parte importante de la funcionalidad que provee **Django** por defecto es u
 
 El proyecto se empezó a desarrollar en torno a 2003 por un equipo de desarrolladores encargado del mantenimiento de periódicos digitales, pero no es hasta 2005 que se abre al público con su primera release.
 
-Debe su nombre al gitarrista de jazz Django Reinhardt del que era fan 
+Debe su nombre al guitarrista de jazz Django Reinhardt del que era fan 
 Adrian Holovaty, uno de los miembros del equipo de desarrollo original.
 
 Al igual que **Python** es desarrollado y mantenido por la [**Python Software Foundation**](https://www.python.org/psf/ "Python Software Foundation") , el desarrollo **Django** corre a cargo de la [**Django Software Foundation**](https://www.djangoproject.com/foundation/ "Django Software Foundation"), que también se encarga de mantenerlo y promover su uso.

@@ -13,10 +13,10 @@ Asegúrate que está activo un **entorno virtual** antes de instalar **Django** 
 Con `pip -V` se puede ver la ruta del entorno activo. Si coincide con la ruta donde tienes tu entorno virtual para el proyecto, continúa con:
 
 ```
-pip install django==3.1.7
+pip install django==4.0
 ```
 
-Y no olvides añadir `django==3.1.7` al archivo de requisitos (requirements.txt) de tu proyecto. En un equipo de desarrollo lo necesitarás para que el resto de miembros trabajen sobre las mismas versiones.
+Y no olvides añadir `django==4.0` al archivo de requisitos (requirements.txt) de tu proyecto. En un equipo de desarrollo lo necesitarás para que el resto de miembros trabajen sobre las mismas versiones.
 
 ## Creando el primer proyecto
 
@@ -52,7 +52,7 @@ System check identified no issues (0 silenced).
 You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
 Run 'python manage.py migrate' to apply them.
 <datetime>
-Django version 3.1.7, using settings '<datetime>.settings'
+Django version 4.0, using settings '<datetime>.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
@@ -61,7 +61,7 @@ Lo indica que el servidor está escuchando por el puerto 8000 de tu equipo.
 
 La principal característica de este servidor es que se recargará automáticamente cada vez que un archivo `*.py` contenido en la carpeta del proyecto se vea modificado, pero **no es apto para producción** ya que no es un servidor seguro y además, esta característica del recargado lo hace extremadamente lento.
 
-Lo común para desplegar proyectos **Django** es utilizar servidores como [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/ "uWSGI") o [Gunicorn](https://gunicorn.org/ "Gunicorn"). Más información [aquí](https://docs.djangoproject.com/es/3.1/howto/deployment/ "Desplegando Django").
+Lo común para desplegar proyectos **Django** es utilizar servidores como [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/ "uWSGI") o [Gunicorn](https://gunicorn.org/ "Gunicorn"). Más información [aquí](https://docs.djangoproject.com/es/4.0/howto/deployment/ "Desplegando Django").
 
 
 

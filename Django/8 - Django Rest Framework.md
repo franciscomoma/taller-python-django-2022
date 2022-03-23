@@ -10,10 +10,10 @@
 Al igual que **Django**, se instala sobre el entorno virtual con pip, dado que está [disponible en PyPI](https://pypi.org/project/djangorestframework/ "PyPI - Django Rest Framework"):
 
 ```
-pip install djangorestframework==3.12.2
+pip install djangorestframework==3.13.1
 ```
 
-Y como siempre, añade `djangorestframework==3.12.2` a tu requirements.txt.
+Y como siempre, añade `djangorestframework==3.13.1` a tu requirements.txt.
 
 Con **Django Rest Framework** ya instalado, lo siguiente será añadir `rest_framework` a la lista `INSTALLED_APPS` en `settings.py` del proyecto `Django`:
 
