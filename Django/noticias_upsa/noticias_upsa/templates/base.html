@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Noticias UPSA - {% block title %}Home{% endblock %}</title>
+</head>
+
+<body>
+    <div id="sidebar">
+        {% block menu %}
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/noticias/">Noticias</a></li>
+            <li><a href="/comentarios/">Comentarios</a></li>
+        </ul>
+        {% endblock %}
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

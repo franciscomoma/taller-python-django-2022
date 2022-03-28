@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Listado de comentarios{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for comentario in object_list %}
+            <li><a href="/comentarios/{{comentario.pk}}">{{ comentario.fecha_publicacion|date }} - {{ comentario.autor.username }}</li></a>
+        {% empty %}
+            <li>Aún no hay comentarios.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
